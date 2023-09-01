@@ -1,0 +1,21 @@
+set_property SRC_FILE_INFO {cfile:f:/CPUDesign/mycpu_board_200111130/mycpu_board_200111130.srcs/sources_1/ip/cpuclk/cpuclk.xdc rfile:../mycpu_board_200111130.srcs/sources_1/ip/cpuclk/cpuclk.xdc id:1 order:EARLY scoped_inst:u_mycpu/u_cpuclk/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:F:/CPUDesign/clock.xdc rfile:../../clock.xdc id:2} [current_design]
+set_property SRC_FILE_INFO {cfile:F:/CPUDesign/pin.xdc rfile:../../pin.xdc id:3} [current_design]
+current_instance u_mycpu/u_cpuclk/inst
+set_property src_info {type:SCOPED_XDC file:1 line:57 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter [get_clocks -of_objects [get_ports clk_in1]] 0.1
+current_instance
+set_property src_info {type:XDC file:2 line:1 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -name clk -period 10 [get_ports clk]
+set_property src_info {type:XDC file:3 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y18 [get_ports clk]
+set_property src_info {type:XDC file:3 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R1 [get_ports rst]
+set_property src_info {type:XDC file:3 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P1 [get_ports button]
+set_property src_info {type:XDC file:3 line:40 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+set_property src_info {type:XDC file:3 line:41 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports rst]
+set_property src_info {type:XDC file:3 line:42 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports button]

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Jul 17 09:43:48 2022
+# Process ID: 13800
+# Current directory: D:/UniversityLife/CPUDesign/mycpu_board_200111130
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13728 D:\UniversityLife\CPUDesign\mycpu_board_200111130\mycpu_board_200111130.xpr
+# Log file: D:/UniversityLife/CPUDesign/mycpu_board_200111130/vivado.log
+# Journal file: D:/UniversityLife/CPUDesign/mycpu_board_200111130\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/UniversityLife/CPUDesign/mycpu_board_200111130/mycpu_board_200111130.xpr
+INFO: [Project 1-313] Project file moved from 'F:/CPUDesign/mycpu_board_200111130' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:17 . Memory (MB): peak = 796.102 ; gain = 203.605
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jul 17 10:47:47 2022...
